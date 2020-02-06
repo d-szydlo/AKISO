@@ -1,0 +1,16 @@
+#!/bin/bash
+
+touch strona1.txt
+touch strona2.txt
+emptystring="a"
+lynx -dump $1 > strona1.txt
+while [ 1 -eq 1 ]; do
+  sleep $2
+  lynx -dump $1 > strona2.txt
+  zmiana=$(diff strona1.txt strona2.txt)
+  if [ "$zmiana" > $emptystring ]; then
+    echo "Zmiana na stronie!"
+    echo $zmiana
+  fi
+ lynx -dump $1 > strona1.txt
+done

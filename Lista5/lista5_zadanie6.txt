@@ -1,0 +1,33 @@
+wget https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.1.1.tar.xz
+sudo tar -xvf linux-5.1.1.tar.xz -C/usr/src/
+cd /usr/src/linux-5.1.1/
+mkdir hello
+cd hello
+nano hello.c
+#include <linux/kernel.h>
+
+asmlinkage long sys_hello(void)
+{
+        printk("Hello world\n");
+        return 0;
+}
+nano Makefile
+obj-y := hello.o
+gedit Makefile
+core-y += kernel/ mm/ fs/ ipc/ security/ crypto/ block/ hello/
+cd arch/x86/entry/syscalls/
+gedit syscall_64.tbl
+548       64        hello          sys_hello
+cd include/linux/
+gedit syscalls.h
+asmlinkage long sys_hello(void);
+sudo apt-get install gcc
+sudo apt-get install libncurses5-dev
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install libssl-dev
+sudo apt-get install libelf-dev
+sudo apt-get update
+sudo apt-get upgrade
+sudo make menuconfig
+sudo make -j4

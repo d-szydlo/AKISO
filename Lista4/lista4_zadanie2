@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /proc
+dane=$(echo -e '\nPID\tPPID\tname\tstate\tfiles open')
+for pid in [0-9]*
+do procid=$(sudo cat /proc/$pid/status | grep -w 'Pid:'| sed 's/Pid:\t//')
+   dane="${dane}\n${procid}"
+   ppid=$(cat /proc/$pid/status | grep -w 'PPid:'| sed 's/PPid:\t//')
+   dane="${dane}\t${ppid}"
+   name=$(cat /proc/$pid/status | grep -w 'Name:'| sed 's/Name:\t//')
+   dane="${dane}\t${name}"
+   stan=$(cat /proc/$pid/status | grep -w 'State:'| sed 's/State:\t//')
+   dane="${dane}\t${stan}"
+   fo=$(ls /proc/$pid/fd/ | wc -l)
+   dane="${dane}\t${fo}"
+done
+echo -e $dane

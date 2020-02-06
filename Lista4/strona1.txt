@@ -1,0 +1,831 @@
+   (BUTTON) Toggle navigation [1]Wojciech Wodo
+     * [2]announcements
+     * [3]teaching
+     * [4]projects
+     * [5]cv
+     * [6]contact
+
+[7]Semestr zimowy 2019/2020
+
+   Math teacher
+
+Konsultacje / Office hours:
+
+   Wtorek / Tuesday: 11:15-13:15, 218 D-1
+   Uwaga! 17.12 konsultacji nie ma! / Attention! On December 17 office
+   hours are cancelled!
+   Konkretne problemy warto wcześniej podesłać mailem, żebym mógł
+   przemyśleć :)
+   It is highly recommended to send me specific inquires by e-mail in
+   order to give me some time for thinking :)
+
+Prowadzone kursy / Running classes:
+
+     * Bazy danych i systemy informacyjne - studia inżynierskiej ([8] o
+       kursie)
+          + Środa TN 9.15-11.00, s. 303A C-7
+          + Środa TP 9.15-11.00, s. 303A C-7
+          + Środa TN 11.15-13.00, s. 303A C-7
+          + Środa TP 11.15-13.00, s. 303A C-7
+     * Praca dyplomowa / diploma thesis
+
+     * Poniedziałek 11.15-13.00, s. 218 D-1
+
+Bazy danych i systemy informacyjne
+
+Zasady zaliczenia
+
+   Na ćwiczeniach będą oceniane wiedza studenta oraz sposób, terminowość
+   przedstawianych rozwiązań i aktywność na zajęciach. Prowadzący będzie
+   wymagał szczegółowej znajomości użytych technik rozwiązania, może
+   poprosić o modyfikację lub dodanie nowych fragmentów do istniejącego
+   już rozwiązania. Na ocenę końcową składać się będzie ocena z kolokwium,
+   kartkówki za poszczególne listy z uwzględnieniem terminowości oraz
+   aktywności. Szczegółowe zasady oceniania dostępne na stronie
+   prowadzącego wykład.
+
+[9]Listy
+
+Literatura
+
+   * J.D. Ullman, J. Widom, A First Course in Database Systems
+   * J.D. Ullman, Principles of Database Systems * H. Garcia-Molina, J.D.
+   Ullman, J. Widom, Systemy baz danych * T. Pankowski, Podstawy baz
+   danych * W3Schools, Manual dialektu
+
+Prezentacje
+
+   [10]Normalizacja 1NF - 5NF
+   [11]Normalizacja Schematów Logicznych Relacji
+
+Wyniki
+
+   [12]Grupa A TN 9.15
+   [13]Grupa B TN 11.15
+   uff...wkrótce kolejne...
+
+Praca dyplomowa - diploma thesis
+
+   Na spotkaniach będziemy omawiać postępy w realizacji prac dyplomowych
+   oraz prezentować zgromadzony materiał, dyskutować nad otrzymanymi
+   wynikami i ustalać dalsze etapy pracy do wykonania.
+
+Dodatkowe informacje
+
+   ...
+
+[14]Semestr letni 2018/2019
+
+Konsultacje / Office hours:
+
+   Środa / Wednesday: 11:15-13:00, 218 D-1
+   Uwaga! 04.06 konsultacji nie ma! / Attention! On June 4 office hours
+   are cancelled!
+   Konkretne problemy warto wcześniej podesłać mailem, żebym mógł
+   przemyśleć :)
+   It is highly recommended to send me specific inquires by e-mail in
+   order to give me some time for thinking :)
+
+Prowadzone kursy / Running classes:
+
+     * Embedded Security Systems - MSc programe ([15]About the course)
+          + Tuesday 13.15-15.00, r. 317.3 D-1
+          + Tuesday 15.15-16.55, r. 317.3 D-1
+
+Embedded Security Systems - MSc programe
+
+Rules
+
+   The student's knowledge and the manner and timeliness of the presented
+   solution stages will be assessed at the laboratory classes. The
+   lecturer will require a detailed knowledge of the solution techniques
+   used, may ask to modify or add new fragments to the existing source
+   code. The final grade will consist of the average of grades for each
+   list, including timeliness and activity. Each stages of classes will
+   require sum up in a form of written report, which will be evaluated.
+
+Additional information
+
+   After finishing some part of material students will be requested to
+   prepare recapping report covering what they did during solving
+   assignments, including objectives, experiments, codes snippets, results
+   and the most important part - discussion and reflections. Report should
+   be prepared in written form (PDF file) and submitted by e-mail till the
+   end of the highlighted week.
+
+Lists
+
+     * [16]List 1: introduction to VHDL - hello world, testing, text I/O.
+       Nice [17]VHDL Tutorial with Examples.
+     * [18]List 2: A5/1-like cipher and randomness analysis. [19][Code]
+       REPORT SUBMISSION
+     * List 3 (on March 12, 19): IrDA and oscilloscope showcase.
+       [20]Saleae download page for logic analyser software. We used
+       infrared receiver [21]TSOP2238 datasheet and some code for
+       [22]Arduino. Traces of IrDA communication from the remote as picked
+       up by the receiver will be send to respective students via email
+       for decoding.
+     * List 4 (on March 26, April 2, 9): Securing IrDA transmission with
+       A5/1 - two-weeks long assignment. Using Arduino platform and the
+       IrDA hardware from the showcase build a transmission link protected
+       with A5/1 implementation of stream cipher. There are two cases to
+       implement:
+          + The two communicating PCs separately produce the keychains
+            from A5/1 and pass it to Arduino boards using UART. The
+            encrypted message is sent between the Arduinos over IrDA link.
+          + The two communicating Adruino boards are connected via UART
+            link for message transmission. The keystream is received from
+            the sending PC via UART link and forwared in parallel with the
+            cryptogram via IrDA link.
+       REPORT SUBMISSION
+     * List 5 (on April 29, May 7,14) Embedded systems password breaking
+       and side-channel analysis (timing attack - see [23]example). You
+       will be equipped with Arduino with a few implementation of
+       following features:
+         1. Door keypad - PIN (for getting access)
+         2. Login/Password (for getting privileges)
+         3. Bluetooth interface (for establishing connection)
+       Your task is to overcome each security means by using different
+       analysis methods and prepare scripts/toolkits facilitating attacks.
+       You should be able to establish connection between Arduino and your
+       computer via serial port in order to perform the communication or
+       use another Arduino.
+       REPORT SUBMISSION (till May 26)
+     * List 6 (on May 21,28) Android App Reverse Engineering, enter the
+       [24]website and go carefully through the whole tutorial. Perform
+       each of exercises and note down your insights.
+       Additional resources:
+       [25]Potentially Harmful Application (PHAs) Categories
+       [26]Beginners Guide to Reverse Engineering Android Apps
+       [27]Structure of Android Application
+       [28]OWASP Mobile Security Testing Guide
+     * List 7 (on June 4 ,11) Smart cards, in order to talk with reader:
+       you need the following software installed on your system:
+          + pcscd -- system daemon, provide connection to readers, go
+            agead and install also pcsc_tools
+          + libccid -- libraries containing drivers for various readers
+          + scs3 -- [29]Smart Cards Shell 3
+          + gpshell -- a GlobalPlatform shell -- interactive environment
+            to exchange APDUs ([30]link/readme)
+          + there are also different APIs for pcsclite library ported to
+            many languages (see for example [31]Python example)
+       Checkout [32]this repository. Go to
+       JCAlgTest/AlgTest_JavaCard/!uploader and examine the upload.bat
+       file (it uses java implementation of gpshell). Examine also
+       archived_legacy_uploaders.zip and search for
+       installAlgTest_NXP_JCOP_CJ3A081.txt. This GPShell file is known to
+       work with provided cards. Note. The cards support JC API 2.2.2, so
+       you need to build your applets with that API. You can also use the
+       reader to try to access your student ID card and your credit/debit
+       cards :)
+       Additional resources:
+       [33]EMV Integrated Circuit Card Specifications for Payment Systems
+       [34]Prezentacja Laboratorium Programowania Kart Elektronicznych
+       [35]A Rambling Walk Through an EMV Transaction
+       REPORT SUBMISSION (till June 9)
+
+Marks
+
+   [36]Report 1 - Evaluation
+
+   [37]Report 2 - Evaluation
+
+   [38]Report 3 - Evaluation
+
+   [39]Report 4 - Evaluation (new update)
+
+   [40]Final Grades (new update)
+
+[41]Semestr zimowy 2018/2019
+
+Konsultacje / Office hours:
+
+   Tuesday/ Wtorek: 10.00:-12:00 209 D-1
+
+   Uwaga! 16.10.2018 konsultacje nie odbędą się z uwagi na moją chorobę.
+   Konkretne problemy warto wcześniej podesłać mailem, żebym mógł
+   przemyśleć :)
+   It is highly recommended to send me specific inquires by e-mail in
+   order to give me some time for thinking :)
+
+Prowadzone kursy / Running classes:
+
+     * Programowanie zespołowe (P) Inf/PPT I st.
+          + Środa 9.15-11.00, s. 249, A-1
+     * Architektura komputerów i systemy operacyjne (C) Inf/PPT I st.
+       ([42]Informacje o kursie)
+          + Piątek 15.15-16.55, s. 202 C-7
+     * Identification Systems (C) Inf/PPT Master Programme ([43]About
+       class)
+          + Wednesday 15.15-16.55, s. 303 C-7
+
+Programowanie zespołowe (P) Inf/PPT I st.
+
+Zasady zaliczenia
+
+   Celem kursu jest realizacja zespołowego projektu programistycznego
+   (systemu) na wybrany temat, zdobycie praktycznych doświadczeń w
+   zakresie pracy zbiorowej nad projektem IT, zarówno pod względem
+   technicznym jak i organizacyjnym.
+
+   Etapy realizacji projektu:
+     * 3 zajęcia: ostateczny podział na zespoły i wstępna wersja
+       specyfikacji systemu;
+     * 4 zajęcia: pełna specyfikacja systemu (cel systemu, zakres systemu,
+       wymagania funkcjonalne i niefunkcjonalne) oraz harmonogram prac z
+       przydziałem zadań a także link do repozytorium projektu (github) i
+       opcjonalnie link do systemu zarządzania projektem (podwyższa
+       ocenę);
+     * 7 zajęcia: projekt systemu w UML (diagramy w pełni opisujące
+       projektowany system);
+     * 10 zajęcia: działający prototyp systemu (wersja alfa);
+     * 12 zajęcia: działający prototyp systemu (wersja beta);
+     * 14 zajęcia: ostateczna wersja systemu z dokumentacją techniczną.
+
+   Projekt uważa się za zakończony jeżeli:
+     * sporządzono w terminie pełną specyfikację systemu i harmonogram
+       prac,
+     * oddano w terminie projekt systemu i jest on zgodny ze specyfikacją,
+     * oddano w terminie system i jest on zgodny z projektem,
+     * stworzono dokumentację techniczną systemu.
+
+   Jeżeli powyższe warunki zostały spełnione to zrealizowany projekt
+   (system) może być poddany ocenie. Przy ocenianiu brane będą pod uwagę:
+     * terminowość realizacji poszczególnych etapów,
+     * jakość stworzonego oprogramowania,
+     * jakość stworzonej dokumentacji,
+     * ergonomia interfejsu, łatwość użytkowania systemu.
+
+   Oceną projektu jest liczba od 2.0 do 5.5 z dokładnością do jednej
+   dziesiątej.
+
+   Wykorzystanie niestandardowych języków, bibliotek i kodów źródłowych
+   wymaga akceptacji prowadzącego.
+
+   Projekty można realizować w zespołach 4-5 osobowych (średnia ocen
+   członków zespołu musi być mniejsza lub równa ocenie projektu i cały
+   zespół musi oceny zaakceptować, w przeciwnym przypadku wszyscy
+   otrzymują identyczną ocenę nie wyższą niż ocena projektu).
+
+Oceny
+
+   Dostępne w systemie JSOS.
+
+Architektura komputerów i systemy operacyjne Inf/PPT I st.
+
+Zasady zaliczenia:
+
+   Odbędą się dwa kolokwia w tygodniach 47 roku 2018 oraz 3 roku 2019
+
+   Punktacja - na każdym kolokwium można zdobyć maks. 15pt + punkty za
+   aktywność na ćwiczeniach
+     * ocena 5.5 >=37pt
+     * ocena 5.0 >=27pt & <37pt
+     * ocena 4.5 >=24pt & <27pt
+     * ocena 4.0 >=21pt & <24pt
+     * ocena 3.5 >=18pt & <21pt
+     * ocena 3.0 >=15pt & <18pt
+
+Dodatkowe informacje
+
+   M.Morris Mano Architektura komputerów, Wydawnictwo Naukowo-Techniczne,
+   1988, s.389
+
+Wyniki
+
+   [44]Wyniki sumaryczne
+
+Identification Systems Inf/PPT Master Programme
+
+Rules
+
+   Final grade is calculated as follows: fG = 0,5 * aG + 0,5 * pG, where
+   aG is the evaluation of the assignments and pG is the evaluation of the
+   project.
+
+Assignments lists
+
+   [45]List 1
+
+Projects
+
+   Implement chosen biometrics in a form of simple
+   authentication/identification system. Create toolkit for enrollment of
+   raw biometric data and processing them into the biometric templates.
+   Perform simulations and evaluate FAR/FRR curves, try different
+   sensitivity thresholds, think about template model. Feel free to use
+   libraries like [46]OpenCV or [47]OpenBR, the main aim of the project is
+   to perform dozen experiments and dive into practical aspects of using
+   biometrics. Prepare final report recapping the project.
+
+     * Option 1 - Keystrokes/Touchscreen Dynamics
+     * Option 2 - Face Recognition
+     * Option 3 - Iris Recognition
+     * Option 4 - Fingerprint
+     * Option 5 - Signature/Handwriting Recognition
+
+Terms
+
+   Project deadline - first iteration must be sent by e-mail before 10
+   January 2019, each week of delay causes decrease of final mark by one
+   grade.
+
+   Quiz - 10 January 2019, scope includes assignment lists and content
+   discussed at exercicecs. Some of the important issues are listed below:
+    1. Fundamental terms like FNMR/FMR, FAR/FRR and how to calculate them.
+    2. Generic biometric-based security scheme and its parts.
+    3. Cancelable biometrics
+    4. FIDO - UAF / U2F
+    5. Secure biometrics concepts (i.a. homomorphic encryption schemes,
+       secure sketch, Garbled circuits)
+    6. Biometric vocabulary - ISO/IEC 2382-37
+    7. Biometric Performance Testing And Reporting - Access Control
+       Scenario And Grading Scheme - ISO/IEC 19795-5
+
+Results
+
+   [48]Final results
+
+[49]Semestr letni 2017/2018
+
+Konsultacje / Office hours:
+
+   Thrusday/ Czwartek: 11:15-13:00 209 D-1
+   Uwaga! 8.03.2018 konsultacje nie odbędą się.
+   Konkretne problemy warto wcześniej podesłać mailem, żebym mógł
+   przemyśleć :)
+   It is highly recommended to send me specific inquires by e-mail in
+   order to give me some time for thinking :)
+
+Prowadzone kursy / Running classes:
+
+     * Nowoczesne technologie www Inf/PPT I st. ([50]Informacje o kursie)
+          + Czwartek 9.15-11.00, s. 317.2 D-1
+     * Embedded Security Systems Inf/PPT II st. ([51]Informacje o kursie)
+          + Tuesday 17.05-18.45, r. 317.2 D-1
+
+Nowoczesne technologie WWW Inf/PPT I st.
+
+Zaliczenie
+
+   Na laboratorium/ćwieczeniach będą oceniane wiedza studenta oraz sposób
+   i terminowość przedstawianych etapów rozwiązań. Prowadzący będzie
+   wymagał szczegółowej znajomości użytych technik rozwiązania, może
+   poprosić o modyfikację lub dodanie nowych fragmentów do istniejącego
+   już kodu źródłowego. Na ocenę końcową składać się będzie średnia ocen
+   za poszczególne listy z uwzględnieniem terminowości oraz aktywności.
+
+Informacje dodatkowe
+
+Zajęcia
+
+   ...
+
+Oceny
+
+   Na razie brak :(
+
+Embedded Security Systems Inf/PPT II st.
+
+Rules
+
+   ...
+
+Additional information
+
+Classes
+
+Marks
+
+[52]Semestr zimowy 2017/2018
+
+Konsultacje:
+
+   Poniedziałek 9:15-11:00 209 D-1
+   Konkretne problemy warto wcześniej podesłać mailem, żebym mógł
+   przemyśleć :)
+
+   Uwaga! 19.01.2018 (piątek) odbędą się specjalne konsultacje w godzinach
+   17.05-20.00
+
+Prowadzone kursy:
+
+     * Bazy danych Inf/PPT ([53]Informacje o kursie)
+          + Poniedziałek TN 13.15-15.00, s. 317.3 D-1
+          + Poniedziałek TP 13.15-15.00, s. 317.3 D-1
+          + Wtorek TN 18.55-20.30, s. 317.2 D-1
+          + Wtorek TP 18.55-20.30, s. 317.2 D-1
+          + Piątek TN 15.15-16.55, s. 317.3 D-1
+          + Piątek TP 15.15-16.55, s. 317.3 D-1
+          + Piątek TN 17.05-18.45, s. 108 C-2
+
+Zaliczenie
+
+   Na laboratorium będą oceniane wiedza studenta oraz sposób i terminowość
+   przedstawianych etapów rozwiązań. Prowadzący będzie wymagał
+   szczegółowej znajomości użytych technik rozwiązania, może poprosić o
+   modyfikację lub dodanie nowych fragmentów do istniejącego już kodu
+   źródłowego. Za każde rozpoczęte dwa tygodnie spóźnienia oddania danej
+   listy, ocena końcowa będzie obniżana o 0,5. Na ocenę końcową składać
+   się będzie średnia ocen za poszczególne listy z uwzględnieniem
+   terminowości oraz aktywności.
+
+Informacje dodatkowe
+
+Zajęcia
+
+   Oddawanie projektów: Każdy projekt będzie oceniany na podstawie 5
+   minutowej sesji prezentacyjnej, oznacza to, że twórcy wybierają
+   elementy, które uważają za najważniejsze/najciekawsze i przedstawiają
+   mi poprzez pokazania fragmentów kodu, przeklinanie w interfejsie i
+   opowiedzenie o nich. Jest to zadanie bardzo trudne, bo to krótki okres
+   czasu i chciałoby się "tak dużo" powiedzieć o swoim dziele, ale właśnie
+   na tym polega to ograniczenie, że trzeba wybierać. Będę mieć timer,
+   który będzie odmierzał czas i po nim sesja prezentacji się kończy.
+   Proszę aby członkowie zespołów zastanowili się co pokazać i o czym
+   opowiedzieć, a potem to przećwiczyli, bo potem nie będzie już
+   możliwości poprawy.
+
+Oceny
+
+   [54]Oceny końcowe na 20.01.2018
+
+[55]Semestr zimowy 2014/2015
+
+Konsultacje:
+
+   Środa 9:15-11:00 209 D-1, proszę zapowiedzieć się mailem
+
+Prowadzone kursy:
+
+     * Architektura komputerów i systemy operacyjne Inf/PPT
+       ([56]Informacje o kursie)
+          + Poniedziałek 15.15-16.55, s. 317.3 D-1
+          + Poniedziałek 17.05-18.45, s. 317.3 D-1
+          + Wtorek 17.05-18.45, s. 317.3 D-1
+          + Piątek 09.15-11.00, s. 317.3 D-1
+
+Zaliczenie
+
+   Na laboratorium będą oceniane wiedza studenta oraz sposób i terminowość
+   przedstawianych etapów rozwiązań. Prowadzący będzie wymagał
+   szczegółowej znajomości użytych technik rozwiązania, może poprosić o
+   modyfikację lub dodanie nowych fragmentów do istniejącego już kodu
+   źródłowego. Za każdy tydzień spóźnienia ocena będzie obniżana o jeden
+   stopień. Na ocenę końcową składać się będzie średnia ważona ocen za
+   poszczególne etapy z uwzględnieniem terminowości oraz aktywności.
+   Obecność obowiązkowa.
+
+Infromacje dodatkowe
+
+1-2 Tydzień
+
+   Pojęcia do przyswojenia: S.M.A.R.T, POST, UEFI, boot loader, NCQ, LBA,
+   SCSI, DMA, INT / IRQ, EPROM, EEPROM, Flash Zastanowić się nad
+   następującymi zagadnieniami: na czym polega zapis informacji na dysku?,
+   co robi procedura usuwania danych?, jak skutecznie usunąć zapisaną
+   informację? jak wygląda przekierowanie strumienia wykonania programu
+   przy wystąpieniu przerwania?
+
+3-4 Tydzień
+
+   Pojęcia do przyswojenia: zasilacz AT / ATX, sprawność zasilacza, RS232C
+   / COM, LPT, USB (1.1, 2.0, 3.0), szyny komunikacyjne ISA, PCI, AGP, PCI
+   eXpress, kontrolery IDE Zastanowić się nad następującymi zagadnieniami:
+   jak zasilany jest komputer? jakie napięcia są wykorzystywane i w jakich
+   miejscach? jak wygląda transmisja danych przez port szeregowy typu COM,
+   a jak przez port równoległy typu LPT?
+
+4-5 Tydzień
+
+   Pojęcia do przyswojenia: ANSI bomb, shellcode, debugger, breakpoint,
+   stos, wierzchołek stosu, rejestr, asemblacja, deasemblacja, buffer
+   overflow, stack overflow Zastanowić się nad następującymi
+   zagadnieniami: jak można wykorzystać sekwencje ANSI w odniesieniu do
+   kwestii bezpieczeństwa, jak wywołać shellcode z poziomu kodu programu
+   języka wyższego poziomu.
+
+9-10 Tydzień
+
+   Pojęcia do przyswojenia: zagłodzenie procesu(ang. starving),
+   zakleszczenie procesu(ang. deadlock), sesja krytyczna, synchronizacja
+   wątków, semafory Zastanowić się nad następującymi zagadnieniami: jak
+   można zoptymalizować przydział wspólnych zasobów dla wielu procesów
+   (np. na przykładzie problemu filozofów)
+
+Oceny
+
+   [57]Oceny (wszystkie grupy)
+
+[58]Semestr letni 2013/2014
+
+Konsultacje:
+
+   Wtorek 11:15-13:00 1.09 C-13, proszę zapowiedzieć się mailem
+
+Prowadzone kursy:
+
+     * Aplikacje bazodanowe Inf/PPT ([59]Informacje o kursie)
+          + Wtorek 17.05-18.45, s. 317.2 D-1
+
+Zaliczenie
+
+   * Część I - aplikacja bazodanowa
+    1. Wybór i zgłoszenie tematu. Wstępny zakres projektu. (termin: 2
+       tydzień)
+    2. Projekt aplikacji zawierający:
+          + analizę biznesową (jaki rzeczywisty problem rozwiązujemy,
+            dlaczego i jak)
+          + wymagania użytkownika (funkcjonalne oraz techniczne/sprzętowe)
+          + diagram przypadków użycia (jakie funkcjonalności ma program)
+          + diagram bazy danych (UML)
+          + koncepcja architektury systemu (jak aplikacja jest zbudowana,
+            jakie ma warstwy, itd.) (termin: 4 tydzień)
+    3. Implementacja aplikacji (termin: 8 tydzień)
+
+   * Część II - hurtownia danych
+    1. Projekt hurtowni danych na podstawie aplikacji zawierający:
+          + analizę biznesową (do czego będzie nam służyć ta hurtownia,
+            jakie dylematy pomoże nam rozwiązać)
+          + projekt hurtowni danych (UML)
+          + przykładowe analizy, które można wykonać (termin: 9 tydzień)
+    2. Implementacja hurtowni danych zawierająca:
+          + Stworzenie bazy hurtowni danych
+          + Stworzenie bazy OLAP (termin: 10 tydzień)
+          + Stworzenie raportów dla użytkownika
+          + Stworzeni transformacji danych z aplikacji bazodanowej do bazy
+            hurtowni.(termin: 12 tydzień)
+
+   Na laboratorium będą oceniane wiedza studenta oraz sposób i terminowość
+   przedstawianych etapów rozwiązań. Prowadzący będzie wymagał
+   szczegółowej znajomości użytych technik rozwiązania, może poprosić o
+   modyfikację lub dodanie nowych fragmentów do istniejącego już kodu
+   źródłowego. Za każdy tydzień spóźnienia ocena będzie obniżana o jeden
+   stopień. Na ocenę końcową składać się będzie średnia ważona ocen za
+   poszczególne etapy z uwzględnieniem terminowości oraz aktywności.
+   Obecność obowiązkowa.
+
+Infromacje dodatkowe
+
+   Do zabaw z kostkami OLAP i analizami polecam rozwadze jedno z
+   poniższych narzędzi:
+     * Microsoft Analysis Services (komponent MS SQL Server), lub add-in
+       do MS Excela o tej samej nazwie
+     * Cognos OLAP Moldeling (IBM)
+     * Hyperian Essbase
+
+   W dniu 11.03.2014 r. na zajęciach będziemy gościć specjalistę z firmy
+   Nokia Solutions and Networks, który opowie nam o bazach danych NoSQL.
+
+   W dniu 25.03.2014 r. na zajęciach będziemy gościć specjalistę z
+   Wrocławskiego Centrum Transferu Technologii, który przeprowadzi crash
+   course z metodyki Design Thinking.
+
+Oceny
+
+   [60]Oceny
+
+[61]Semestr zimowy 2013/2014
+
+Konsultacje:
+
+   Wtorek 11:15-13:00 1.09 C-13, proszę zapowiedzieć się mailem
+
+   Uwaga! 15.10 konsultacje nie odbędą się, termin zastępczy to 17.10 w
+   godz. 13.15-15.00
+
+   Dodatkowe konsultacje: 31.01.2014 r w godzinach 13:00-14:00 (ostateczny
+   termin zaliczenia w sesji list, konsekwencją nieprzygotowania będzie
+   ocena niedostateczna)
+
+   Konsultacje w sesji: Wtorek 11.02.2014 r. 10:00-14:00/15:00 (ostateczny
+   termin zaliczenia listy 7)
+
+Prowadzone kursy:
+
+     * Architektura komputerów i systemy operacyjne Inf/PPT
+       ([62]Informacje o kursie)
+          + Środa 13.15-15.00, s. 317.4 D-1
+          + Czwartek 15.15-17.00, s. 317.4 D-1
+
+Zaliczenie
+
+   Na laboratorium będą oceniane wiedza studenta oraz sposób i terminowość
+   przedstawianych rozwiązań zadań z list. Prowadzący będzie wymagał
+   szczegółowej znajomości użytych technik rozwiązania, może poprosić o
+   modyfikację lub dodanie nowych fragmentów do istniejącego juą kodu
+   źródłowego. Podstawowe listy zadań będą pojawiać się na stronie
+   wykładowcy, prowadzący może wprowadzić listy dodatkowe lub kartkówki,
+   za nieterminowe oddawanie zadań będzie obniżana ocena końcowa z
+   przedmiotu. Na ocenę końcową składać się będzie średnia ocen za
+   poszczególne listy i kartkówki z uwzględnieniem terminowości oraz
+   aktywności.
+
+Oceny
+
+   [63]Grupa środowa (aktualne oceny)
+   [64]Grupa czwartkowa (aktualne oceny)
+
+[65]Semestr letni 2012/2013
+
+Konsultacje:
+
+   Środa 13:15-15:00 1.09 C-13, proszę zapowiedzieć się mailem
+
+Prowadzone kursy:
+
+     * Aplikacje bazodanowe Inf/PPT ([66]Informacje o kursie)
+          + Wtorek 7.30-9.00, s. 317.4 D-1
+          + Wtorek 9.15-11.00, s. 317.4 D-1
+     * Kurs programowania Inf/PPT ([67]Informacje o kursie)
+          + Wtorek 15.15-16.55, s. 317.2 D-1
+
+Aplikacje bazodanowe Inf/PPT
+
+Zaliczenie
+
+   * Część I - aplikacja bazodanowa
+    1. Wybór i zgłoszenie tematu. Wstępny zakres projektu. (termin: 2
+       tydzień)
+    2. Projekt aplikacji zawierający:
+          + analizę biznesową (jaki rzeczywisty problem rozwiązujemy,
+            dlaczego i jak)
+          + wymagania użytkownika (funkcjonalne oraz techniczne/sprzętowe)
+          + diagram przypadków użycia (jakie funkcjonalności ma program)
+          + diagram bazy danych (UML)
+          + koncepcja architektury systemu (jak aplikacja jest zbudowana,
+            jakie ma warstwy, itd.) (termin: 4 tydzień)
+    3. Implementacja aplikacji (termin: 8 tydzień)
+
+   * Część II - hurtownia danych
+    1. Projekt hurtowni danych na podstawie aplikacji zawierający:
+          + analizę biznesową (do czego będzie nam służyć ta hurtownia,
+            jakie dylematy pomoże nam rozwiązać)
+          + projekt hurtowni danych (UML)
+          + przykładowe analizy, które można wykonać (termin: 9 tydzień)
+    2. Implementacja hurtowni danych zawierająca:
+          + Stworzenie bazy hurtowni danych
+          + Stworzenie bazy OLAP (termin: 10 tydzień)
+          + Stworzenie raportów dla użytkownika
+          + Stworzeni transformacji danych z aplikacji bazodanowej do bazy
+            hurtowni.(termin: 12 tydzień)
+
+Informacje dodatkowe
+
+   Do zabaw z kostkami OLAP i analizami polecam rozwadze jedno z
+   poniższych narzędzi:
+     * Microsoft Analysis Services (komponent MS SQL Server), lub add-in
+       do MS Excela o tej samej nazwie
+     * Cognos OLAP Moldeling (IBM)
+     * Hyperian Essbase
+
+   Na początku kwietnia na zajęcia zostanie zaproszony gość z firmy Fast
+   White Cat, który opowie nam o integracji systemów, zaś pod koniec
+   kwietnia kolejny, który wprowadzi nas w świat hurtowni danych, mocno
+   zachęcam do udziału w tych spotkaniach.
+
+   Prezentacja z wykładu gościnnego (18.03.2013 r.) dr. inż. Macieja
+   Nikodema pt. [68]Szyfrowanie danych w SZBD
+
+   Tutaj znajdziedzie Państwo przykładowy generator danych do tabel -
+   [69]www.generatedata.com
+
+   Interesujące opracowanie pana Pawła Ciejki dotyczące zarządzania
+   użytkownikami baz danych w Postgresql - [70]opracowanie
+
+Oceny
+
+   [71]Proponowane oceny (obie grupy)
+
+Kurs programowania Inf/PPT
+
+Zaliczenie
+
+   Ocena z laboratorium bierze pod uwagę umiejętności nabyte w trakcie
+   kursu oraz terminowość oddawania zadań. Zadania powinny być
+   zaimplementowane samodzielnie przez studenta. Podczas zaliczania danej
+   listy zadań, prowadzący może żądać modyfikacji programu pokazujących,
+   że student opanował wymagany poziom zrozumienia zagadnienia i języka, w
+   którym został ów program napisany. Listy dzielą się na dwie kategorie:
+   na zaliczenie i na ocenę - średnia z ocen tych drugich jest podstawą
+   zaliczenia laboratorium. Każdy tydzień spóźnienia dowolnej listy obniża
+   końcową ocenę z laboratorium o 0,2. Aby zaliczyć laboratorium wszystkie
+   listy muszą być oddane i pozytywnie ocenione.
+
+Debugowanie kodu
+
+   Aby znaleźć w programie błędy należy niekiedy udać się po pomoc
+   dodatkowych narzędzia np. debugger'a czy profiler'a, dla języka C/C++
+   mamy dostępne na licencji GNU takie narzędzia jak gdb, gprof czy
+   oprofile , polecam zaznajomić się z nimi, stanowią one bardzo cenne
+   źródło infomracji co się dzieje z naszą aplikacją.
+
+Dokumentowanie kodu:
+
+   Celem zapewnienia naszej aplikacji przyzwoitej dokumentacji, która nie
+   będzie wymagała od nas dużo pracy, należy skorzystać z narzędzi, która
+   skorzystają z komentarzy umieszczanych w poszczególnych miejscach
+   programu. Stosując kilka dodatkowych znaków formatujacych jesteśmy w
+   stanie wygenerować sobie czytelną i przejrzystą dokumentację np. w
+   formacie HTML stosując w Javie prosty javadoc albo bardziej
+   zaawansowany doxygen dla języków C/C++, C, C#, PHP, Java, Python i
+   innych.
+
+Problemy dodatkowe
+
+   Dla tych z Państwa, którzy chcieliby spróbować rozwiązać nieco
+   trudniejsze zagadnienia przedstawiam kila propozycji:
+    1. Na rozgrzewkę: zaimplementować struktury danych dużych liczb
+       "BigInt" i obliczyć np. 1000!
+    2. Rekurencja:
+          + znajdź na szachownicy takie ustawienie 8 hetmanów, aby żaden
+            nie był w konflikcie z pozostałymi
+          + znajdź takie układ ruchów konia szachowego, aby odwiedził
+            wszystkie jej pola (miejsce startu jako parametr wejściowy
+            programu)
+          + zdefiniuj sobie pewien obszar, podzielony na pola, wprowadź na
+            nim szereg nieprzekraczalnych przeszkód i znajdź drogę z
+            jednej części obszaru na drugą
+    3. Sztuczna inteligencja: chcemy zagrać z komputerem w jedną ze
+       znanych gier planszowych (np. gomoku czy connect four), napisz
+       algorytm, który dla każdego ruchu gracza przeanalizuje sytuację na
+       planszy kilka ruchów do przodu i oceni ją na podstawie przyjętej
+       heurystyki oraz wybierze najlepsze w danej chwili zagarnie dla
+       komputera
+    4. (Nie)Bezpieczeństwo: wkrótce...
+
+   © Wojciech Wodo 2020
+
+References
+
+   1. https://wwodo.mokop.co/teaching
+   2. https://wwodo.mokop.co/
+   3. https://wwodo.mokop.co/teaching
+   4. https://wwodo.mokop.co/projects
+   5. https://wwodo.mokop.co/cv
+   6. https://wwodo.mokop.co/contact
+   7. https://wwodo.mokop.co/teaching#projectCollapse52
+   8. http://www.cs.pwr.edu.pl/syga/teaching.html
+   9. http://www.cs.pwr.edu.pl/syga/courses/db/db_ex.html
+  10. https://wwodo.mokop.co/uploads/docs/bazy19/Normalizacja1NF-5NF.pdf
+  11. https://wwodo.mokop.co/uploads/docs/bazy19/Normalizacja schematow logicznych relacji.pdf
+  12. https://wwodo.mokop.co/uploads/docs/bazy19/BD2019_wyniki_TN915.pdf
+  13. https://wwodo.mokop.co/uploads/docs/bazy19/BD2019_wyniki_TN1115.pdf
+  14. https://wwodo.mokop.co/teaching#projectCollapse45
+  15. http://cs.pwr.edu.pl/blaskiewicz
+  16. https://wwodo.mokop.co/uploads/docs/ess19/ess19-list1.pdf
+  17. http://esd.cs.ucr.edu/labs/tutorial/
+  18. https://wwodo.mokop.co/uploads/docs/ess19/ess19-list2.pdf
+  19. https://wwodo.mokop.co/uploads/docs/ess19/list2.zip
+  20. http://www.saleae.com/downloads
+  21. https://www.tme.eu/pl/Document/c26cc9aca2ad933c9d4bdc84e43ef900/TSOP2238.pdf
+  22. https://www.arduino.cc/
+  23. https://www.youtube.com/watch?v=2-zQp26nbY8
+  24. https://maddiestone.github.io/AndroidAppRE/reversing_intro.html
+  25. https://developers.google.com/android/play-protect/phacategories#billing-fraud
+  26. https://www.youtube.com/watch?v=7SRfk321I5o
+  27. https://www.tutorialride.com/android/structure-of-android-application.htm
+  28. https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide
+  29. https://www.openscdp.org/scsh3/
+  30. https://sourceforge.net/p/globalplatform/wiki/GPShell/
+  31. https://ludovicrousseau.blogspot.com/2014/12/pcsc-sample-in-python-using-python.html
+  32. https://github.com/crocs-muni/JCAlgTest
+  33. https://2426-9805.el-alt.com/download_agreement.aspx?id=652
+  34. http://www.mcp.poznan.pl/wp-content/uploads/2019/02/LabPKE_05a-EMV.pdf
+  35. https://media.ccc.de/v/29c3-5237-en-a_rambling_walk_through_an_emv_transaction_h264#t=0
+  36. https://wwodo.mokop.co/uploads/docs/ess19/ESS_18_19-Report1.pdf
+  37. https://wwodo.mokop.co/uploads/docs/ess19/ESS_18_19-Report2.pdf
+  38. https://wwodo.mokop.co/uploads/docs/ess19/ESS_18_19-Report3.pdf
+  39. https://wwodo.mokop.co/uploads/docs/ess19/ESS_18_19-Report4.pdf
+  40. https://wwodo.mokop.co/uploads/docs/ess19/ESS_18_19-FinalGrade.pdf
+  41. https://wwodo.mokop.co/teaching#projectCollapse43
+  42. http://ki.pwr.edu.pl/zawada/akiso/
+  43. http://ki.pwr.edu.pl/klonowski
+  44. https://wwodo.mokop.co/uploads/docs/ArchitekturaKomputerow20182019-wyniki.pdf
+  45. https://wwodo.mokop.co/uploads/docs/ID_Systems-List1.pdf
+  46. https://opencv.org/
+  47. http://openbiometrics.org/
+  48. https://wwodo.mokop.co/uploads/docs/IdentificationSystems2018-2019-wyniki.pdf
+  49. https://wwodo.mokop.co/teaching#projectCollapse41
+  50. http://ki.pwr.edu.pl/cichon/2017_18_b/WWW.php
+  51. http://cs.pwr.edu.pl/blaskiewicz
+  52. https://wwodo.mokop.co/teaching#projectCollapse38
+  53. http://cs.pwr.edu.pl/syga/courses/db/db_rules.html
+  54. https://wwodo.mokop.co/uploads/images/Oceny20.12.pdf
+  55. https://wwodo.mokop.co/teaching#projectCollapse7
+  56. http://prac.im.pwr.wroc.pl/~zawada/akiso/
+  57. https://wwodo.mokop.co/uploads/docs/ArchitekturaKomputerow2014_2015.txt
+  58. https://wwodo.mokop.co/teaching#projectCollapse8
+  59. http://www.im.pwr.wroc.pl/~macyna
+  60. https://wwodo.mokop.co/uploads/docs/AplikacjeBazodanowe2013_2014let.txt
+  61. https://wwodo.mokop.co/teaching#projectCollapse9
+  62. http://prac.im.pwr.wroc.pl/~zawada/akiso/
+  63. https://wwodo.mokop.co/uploads/docs/ArchitekturaKomputerow2013_2014_2.txt
+  64. https://wwodo.mokop.co/uploads/docs/ArchitekturaKomputerow2013_2014_1.txt
+  65. https://wwodo.mokop.co/teaching#projectCollapse10
+  66. http://www.im.pwr.wroc.pl/~macyna
+  67. http://mgc.im.pwr.wroc.pl/
+  68. https://wwodo.mokop.co/uploads/docs/Szyfrowanie_danych_w_SZBD.pdf
+  69. http://www.generatedata.com/
+  70. https://wwodo.mokop.co/uploads/docs/pgsql_users.pdf
+  71. https://wwodo.mokop.co/uploads/docs/AplikacjeBazodanowe2012_2013let.txt

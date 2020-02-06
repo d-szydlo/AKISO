@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wget -O chuck http://api.icndb.com/jokes/random
+wget -O randomcat https://api.thecatapi.com/v1/images/search
+randomurl=$(jq '.[] | .url' randomcat)
+randomurl=$(echo $randomurl | tr -d '\"\') 
+wget -O catimage.jpg $randomurl
+catimg catimage.jpg
+jq '.value.joke' chuck
