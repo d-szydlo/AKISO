@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for name in *
+do
+  newname=$(echo $name | tr '[:upper:]' '[:lower:]')
+  mv "./$name" "./$newname"
+done
